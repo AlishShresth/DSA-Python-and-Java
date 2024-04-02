@@ -14,7 +14,6 @@ def merge(arr, lo, mid, hi):
     tempArr = []
     i = lo
     j = mid+1
-    k = 0
     while i <= mid and j <= hi:
         if arr[i] < arr[j]:
             tempArr.append(arr[i])
